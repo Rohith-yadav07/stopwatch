@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(226, 50, 153);
+  }
+  h1{
+    padding-left: 140px;
+    padding-top: -40px;
+    margin-top: -30px;
+  }
+  .container {
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: min(90%, 31.25em);
+    padding: 3.75em 0;
+    left: 50%;
+    top: 50%;
+    border-radius: 1em;
+  }
+  .timer-display {
+    position: relative;
+    background-color: rgb(5, 245, 185);
+    padding: 1em 0;
+    font-size: 2.5em;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8em;
+  }
+  .buttons {
+    width: 80%;
+    margin: 3.8em auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .buttons button {
+    font-size: 1.12em;
+    border: none;
+    border-radius: 3em;
+    padding: 1em 1.5em;
+    cursor: pointer;
+  }
+  #pause-timer {
+      background-color: rgb(243, 227, 5);
+  }
+  #start-timer {
+    background-color: rgb(243, 7, 7);
+  }
+  #reset-timer {
+      background-color: rgb(13, 236, 5);
+  }
+   
